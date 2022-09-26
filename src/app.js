@@ -24,5 +24,5 @@ window.onload = function() {
 
   let newExcuse = firstPart + " " + secondPart + " " + thirdPart;
 
-  document.getElementById("excuse").innerHTML = newExcuse;
+  return (document.getElementById("excuse").innerHTML = newExcuse);
 };
